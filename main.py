@@ -39,3 +39,4 @@ async def submit_form(
         )
 
     return templates.TemplateResponse("thank_you.html", {"request": request})
+
